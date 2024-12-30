@@ -10,10 +10,10 @@ repository = "https://pypi.org/project/pytor/"
 authors = ["Christophe Mehay <cmehay@nospam.student.42.fr>"]
 
 [tool.poetry.dependencies]
-python
-pycryptodome"
-fire
-pyyaml
+python = "*"
+pycryptodome = "*"
+fire = "*"
+pyyaml = "*"
 
 [tool.poetry.dev-dependencies]
 tox = "*"
